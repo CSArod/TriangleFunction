@@ -39,7 +39,7 @@ int main(){
 ******parameters and clears failstate********************/
 int getIntegerInput(std::string prompt,int min, int max){
     int userInput;
-    int ignoreNum = 60;
+    const int ignoreNum = 60;
     //loop will return Error until input is valid
     while(true){
     std::cout<<prompt;
